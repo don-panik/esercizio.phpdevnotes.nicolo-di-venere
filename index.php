@@ -30,7 +30,7 @@
           <p class="muted" style="margin:10px 0 0">
             Per gli studenti: convertite prima l’archivio blog, poi il singolo post, infine gli snippets.
           </p>
-          <p> </p>
+          
         </div>
       </aside>
     </div>
