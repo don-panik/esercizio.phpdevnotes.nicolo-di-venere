@@ -1,7 +1,8 @@
+<?php ?>
 <footer>
   <div class="container">
     <div class="small">
-      <strong>PHP Dev Notes</strong> (demo) — Contenuti per esercitazione ·
+      <strong><?php bloginfo ( 'name' ); ?></strong> <?php bloginfo( 'description' ); ?>
       <a href="mailto:info@phpdevnotes.test">info@phpdevnotes.test</a>
     </div>
     <div class="small" style="margin-top:8px">
@@ -9,5 +10,6 @@
     </div>
   </div>
 </footer>
+<?php wp_footer(); ?>
 </body>
 </html>
