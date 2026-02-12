@@ -25,6 +25,8 @@
       </div>
     </a>
 
+    <?php get_search_form(); ?>
+
     <nav class="navlinks" aria-label="Menu"> 
     <?php
        wp_nav_menu( array(
