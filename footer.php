@@ -6,7 +6,7 @@
       <a href="mailto:info@phpdevnotes.test">info@phpdevnotes.test</a>
     </div>
     <div class="small" style="margin-top:8px">
-      © 2026 PHP Dev Notes. Sito statico HTML+CSS (senza JavaScript).
+      &copy; <?php echo date( 'Y' ); ?> PHP Dev Notes. Sito statico HTML+CSS (senza JavaScript). ciao
     </div>
   </div>
 </footer>
