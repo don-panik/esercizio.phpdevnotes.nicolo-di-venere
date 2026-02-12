@@ -9,8 +9,8 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <?php wp_head(); ?>
 </head>
-<?php body_class(); ?>
-<body>
+
+<body <?php body_class(); ?>>
   <header> 
   <div class="container nav">
     <a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
