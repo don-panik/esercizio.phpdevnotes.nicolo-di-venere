@@ -10,7 +10,7 @@
           Perfetto per convertirlo in tema WordPress “classico”.
         </p>
         <div class="actions">
-          <a class="btn primary" href="blog.html">Vai agli approfondimenti</a>
+          <a class="btn primary" href="<?php echo esc_url( home_url( '/category/approfondimenti/' ) ); ?>">Vai agli approfondimenti</a>
           <a class="btn" href="snippets.html">Snippet pronti</a>
           <a class="btn" href="contatti.html">Contatti</a>
         </div>

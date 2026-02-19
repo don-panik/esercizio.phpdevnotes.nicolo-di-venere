@@ -1,6 +1,6 @@
 <a class="card" href="post-routing-micro.html" aria-label="Apri articolo: Routing “micro” in PHP: una base pulita senza framework">
   <div class="feature">
-    <img src="assets/posts/routing.svg" alt="Immagine articolo: Routing “micro” in PHP: una base pulita senza framework" />
+    <?php the_post_thumbnail() ?>
     <div class="tag">🏷️ Architettura</div>
     <div class="date"><?php the_date(); ?> </div>
   </div>
