@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+
+
 <main class="container">
     <h2 class="section-title"> <?php echo single_cat_title(); ?> </h2>
     <p class="muted" style="margin-top:0"> <?php echo category_description(); ?> </p>
