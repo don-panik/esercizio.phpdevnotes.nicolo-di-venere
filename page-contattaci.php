@@ -9,25 +9,7 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-  <div class="container nav">
-    <a class="brand" href="index.html" aria-label="Home PHP Dev Notes">
-      <span class="logo" aria-hidden="true">
-        <svg viewBox="0 0 24 24">
-          <path d="M4 5h16v14H4V5zm2 3v2h4V8H6zm0 4v2h8v-2H6z"/>
-        </svg>
-      </span>
-      <div>
-        PHP DEV NOTES<br/>
-        <span class="sub">programmazione PHP · blog tecnico (demo)</span>
-      </div>
-    </a>
-
-    <nav class="navlinks" aria-label="Menu">
-      <a class="" href="index.html">Home</a><a class="" href="blog.html">Approfondimenti</a><a class="" href="snippets.html">Snippets</a><a class="" href="risorse.html">Risorse</a><a class="active" href="contatti.html">Contatti</a>
-    </nav>
-  </div>
-</header>
+<?php get_header(); ?>
 
   <main class="container">
     <div class="breadcrumb">
@@ -80,16 +62,6 @@
     </div>
   </main>
 
-  <footer>
-  <div class="container">
-    <div class="small">
-      <strong>PHP Dev Notes</strong> (demo) — Contenuti per esercitazione ·
-      <a href="mailto:info@phpdevnotes.test">info@phpdevnotes.test</a>
-    </div>
-    <div class="small" style="margin-top:8px">
-      © 2026 PHP Dev Notes. Sito statico HTML+CSS (senza JavaScript).
-    </div>
-  </div>
-</footer>
+  <?php get_footer(); ?>
 </body>
 </html>

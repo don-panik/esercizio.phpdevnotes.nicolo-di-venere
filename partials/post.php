@@ -1,7 +1,16 @@
-<a class="card" href="post-routing-micro.html" aria-label="Apri articolo: Routing “micro” in PHP: una base pulita senza framework">
+<a class="card" href="<?php the_permalink(); ?>" aria-label="Apri articolo: Routing “micro” in PHP: una base pulita senza framework">
   <div class="feature">
     <?php the_post_thumbnail() ?>
-    <div class="tag">🏷️ Architettura</div>
+    <div class="tag">
+    <?php $posttags = get_the_tags(); 
+    if ($posttags) {
+      foreach($posttags as $tag) {
+        echo '🏷️ '. $tag->name.' ';
+      }
+    } 
+    ?>
+    
+    </div>
     <div class="date"><?php the_date(); ?> </div>
   </div>
   <div class="pad">

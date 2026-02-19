@@ -25,7 +25,8 @@
       </div>
     </a>
 
-    <?php get_search_form(); ?>
+    
+    <?php // get_search_form(); ?>
 
     <nav class="navlinks" aria-label="Menu"> 
     <?php

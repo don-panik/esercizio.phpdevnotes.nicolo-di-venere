@@ -50,7 +50,7 @@ Author: Nicolo
   }
   .brand .logo svg{width:20px; height:20px; fill:#0b1020; opacity:.95}
   .brand span.sub{font-size:.82rem; color: rgba(229,231,235,.70); font-weight:750; letter-spacing:.02em; text-transform:none;}
-  .navlinks{display:flex; flex-wrap:wrap; gap:12px; justify-content:flex-end;}
+  .navlinks{display:flex; flex-wrap:wrap; gap:12px; justify-content:flex-end; list-style-type:none;}
   .navlinks li a{
     padding: 8px 10px; border-radius: 999px;
     border: 1px solid transparent;

@@ -1,3 +1,4 @@
+<!--
 <?php
 /**
 * Template del form di ricerca
@@ -13,3 +14,4 @@ placeholder="Cerca nel sito..."
 >
 <button type="submit">Cerca</button>
 </form>
+-->
