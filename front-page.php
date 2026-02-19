@@ -12,7 +12,7 @@
         <div class="actions">
           <a class="btn primary" href="<?php echo esc_url( home_url( '/category/approfondimenti/' ) ); ?>">Vai agli approfondimenti</a>
           <a class="btn" href="<?php echo esc_url( home_url( '/category/snippets/' ) ); ?>">Snippet pronti</a>
-          <a class="btn" href="<?php echo esc_url( home_url( '/contatti' ) ); ?>">Contatti</a>
+          <a class="btn" href="<?php echo esc_url( home_url( '/page/contattaci' ) ); ?>">Contatti</a>
         </div>
       </div>
 
