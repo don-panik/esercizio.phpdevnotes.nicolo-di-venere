@@ -3,6 +3,9 @@
 
 
 <main class="container">
+<div class="breadcrumb">
+      <a href="index.html">Home</a> <span>›</span> <span>Approfondimenti</span>
+    </div>
     <h2 class="section-title"> <?php echo single_cat_title(); ?> </h2>
     <p class="muted" style="margin-top:0"> <?php echo category_description(); ?> </p>
     <div class="grid" aria-label="Ultimi articoli">
