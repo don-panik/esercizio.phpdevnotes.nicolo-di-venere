@@ -1,5 +1,15 @@
 <?php get_header(); ?>
-
+<style>
+.hero:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("<?= get_template_directory_uri() ?>/assets/img/herosfondo.png");
+    background-size: cover;
+    background-position: center;
+    opacity: .95;
+}
+</style>
   <section class="hero" aria-label="Hero">
     <div class="container wrap">
       <div>
@@ -12,7 +22,7 @@
         <div class="actions">
           <a class="btn primary" href="<?php echo esc_url( home_url( '/category/approfondimenti/' ) ); ?>">Vai agli approfondimenti</a>
           <a class="btn" href="<?php echo esc_url( home_url( '/category/snippets/' ) ); ?>">Snippet pronti</a>
-          <a class="btn" href="<?php echo esc_url( home_url( '/page/contattaci' ) ); ?>">Contatti</a>
+          <a class="btn" href="<?php echo esc_url( home_url( 'page/contattaci' ) ); ?>">Contatti</a>
         </div>
       </div>
 

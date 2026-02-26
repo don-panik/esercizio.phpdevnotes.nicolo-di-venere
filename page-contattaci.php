@@ -1,14 +1,4 @@
-<!doctype html>
-<html lang="it">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contatti — PHP Dev Notes</title>
-  <meta name="description" content="Contatti e segnalazioni (demo)." />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
+
 <?php get_header(); ?>
 
   <main class="container">

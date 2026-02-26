@@ -64,7 +64,7 @@ Author: Nicolo
   .hero{border-bottom:1px solid var(--line); position:relative; overflow:hidden;}
   .hero:before{
     content:""; position:absolute; inset:0;
-    background: url("../assets/img/hero.svg");
+    background: url("/assets/img/herosfondo.png");
     background-size: cover; background-position:center;
     opacity:.95;
   }
@@ -239,3 +239,5 @@ Author: Nicolo
     color: rgba(229,231,235,.74);
   }
   .small{font-size:.92rem;}
+
+  

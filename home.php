@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <main class="container">
+
     <h2 class="section-title">Ultimi approfondimenti</h2>
     <p class="muted" style="margin-top:0">Articoli con esempi di codice (senza JS).</p>
     <div class="grid" aria-label="Ultimi articoli">
